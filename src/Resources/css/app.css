@@ -765,6 +765,82 @@ height: 20px !important;
     font-size: 10px !important;
 }
 }
+@media(max-width: 667px) {
+    .featured_wrapper {
+        width: 667px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+    .feature_player {
+        position: absolute;
+    }
+.container {
+    width: 667px;
+}
+.home_matches_wrapper .home_matches {
+    flex-wrap: wrap;
+     flex-direction: column;
+    margin-top: 60px;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 10px;
+    text-align: right;
+    line-height: 60%;
+}
+.player_card_wrapper {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    width: 250px;
+    padding: 0;
+    font-family: 'Righteous';
+}
+.home_meetplayers .home_text_wrapper {
+    width: 35%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px auto;
+}
+.featured_player {
+    width: 80%;
+    background-size: 150% !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+}
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 50%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 200px;
+    margin: 0 auto;
+}
+.wrap_head {
+    width: 320px !important;
+    position: absolute !important;
+}
+.link_logo .img_cover{ 
+width: 100px !important;
+height: 50px !important;
+}
+
+.header_button {
+    width: 100% !important;
+    font-size: 15px !important;
+}
+}
 @media(max-width: 375px) {
     .featured_wrapper {
         width: 375px;
