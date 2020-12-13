@@ -72,7 +72,21 @@ class AddEditPlayers extends Component {
                         {key: "WR", value: "WR"},
                         {key: "QB", value: "QB"},
                         {key: "P", value: "P"},
-                        {key: "LB", value: "LB"}
+                        {key: "LB", value: "LB"},
+                        {key: "OL", value: "OL"},
+                        {key:"CB", value: "CB"},
+                        {key:"C", value:"C"},
+                        {key: "TE", value: "TE"},
+                        {key: "DB", value: "DB"},
+                        {key: "DL", value: "DL"},
+                        {key: "LS", value: "LS"},
+                        {key: "K", value: "K"},
+                        {key: "RB", value: "RB"},
+                        {key: "FB", value: "FB"},
+                        {key: "DT", value: "DT"},
+                        {key: "DE", value: "DE"}
+
+
                     ]
                 },
                 validation: {

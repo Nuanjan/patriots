@@ -75,8 +75,7 @@ class AdminPlayers extends Component {
                     { this.state.isloading ?
                     <CircularProgress thickness={7} 
                     style={{color: '#98c5e9'}}/>
-                 :
-                 ''
+                 :''
                  }
                 </div>
                 </div>

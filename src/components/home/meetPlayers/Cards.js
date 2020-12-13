@@ -7,20 +7,20 @@ class HomeCards extends Component {
     state = {
         cards:[
             {
-                bottom: 90,
-                left: 300
+                bottom: '15%',
+                left: 120
             },
             {
-                bottom: 60,
-                left: 200
+                bottom: '10%',
+                left: 90
             },
             {
-                bottom: 30,
-                left: 100
+                bottom: '5%',
+                left: 50
             },
             {
-                bottom:0,
-                left: 0
+                bottom: '0%',
+                left: '0%'
             }
         ]
     }

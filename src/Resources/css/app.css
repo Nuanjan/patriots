@@ -2,6 +2,7 @@ body {
     margin:0;
     padding:0;
     font-family: 'Roboto', sans-serif;
+    font-size: 100%;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
 .container {
     width:1024px;
     margin: 0 auto;
+    height: 900px;
 }
 
 input {
@@ -170,6 +172,7 @@ footer .footer_discl {
     margin-top: 90px;
     height: 800px;
     overflow: hidden;
+    position: relative;
 }
 
 .featured_stripes {
@@ -182,21 +185,21 @@ footer .footer_discl {
 
 
 .featured_stripes .stripe {
-    width: 230px;
+    width: 13%;
     height: 1200px;
     position: absolute;
 }
 
 .featured_number {
-    font-size: 270px;
+    font-size: 16em;
     color: #ffffff;
-    transform: translate(260px,170px);
+    transform: translate(20%,8em);
     position: absolute;
 }
 
 .featured_player {
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 550px;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     position: absolute;
@@ -205,7 +208,7 @@ footer .footer_discl {
     position: absolute;
     background: #0e1731;
     color: #ffffff;
-    font-size: 92px;
+    font-size: 4.5vw;
     text-transform: uppercase;
     padding: 0px 20px;
 }
@@ -214,7 +217,7 @@ footer .footer_discl {
     position: absolute;
     background: #0e1731;
     color: #ffffff;
-    font-size: 92px;
+    font-size: 4.5vw;
     text-transform: uppercase;
     padding: 0px 20px;
 }
@@ -394,19 +397,18 @@ footer .footer_discl {
 
 .home_meetplayers_wrapper {
     padding-bottom: 100px;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .home_meetplayers .home_card_wrapper {
     position: relative;
     float: left;
-    width: 630px;
     min-height: 600px;
 }
 
 .home_meetplayers .home_text_wrapper {
     float: right;
-    width: 390px;
+    width: 35%;
 }
 
 /*=============================
@@ -472,23 +474,23 @@ footer .footer_discl {
 .promotion_wrapper .promotion_animation .left { 
     text-transform: uppercase;
     text-transform: uppercase;
-    font-size: 150px;
+    font-size: 10vw;
+    padding: 10px;
     font-family: 'Righteous', cursive;
     flex-grow: 1;
     color:#d5ebfd;
-    line-height: 135px;
 }
 .promotion_wrapper .promotion_animation .left span {
     display:block;
  }
 
 .promotion_wrapper .promotion_animation .right {
-    line-height: 135px;
+    line-height: 20rem;
 }
 
 .promotion_wrapper .promotion_animation .right div{
-    width: 280px;
-    height: 280px;
+    width: 50vw;
+    height: 30vw;
     background-size: contain !important;
 }
 
@@ -684,4 +686,55 @@ footer .footer_discl {
     color: #d5ebfe;
     text-align: center;
     margin-top: 200px;
+}
+@media(max-width: 320px) {
+    .featured_wrapper {
+        width: 320px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+    .feature_player {
+        position: absolute;
+    }
+.container {
+    width: 320px;
+}
+.home_matches_wrapper .home_matches {
+    flex-wrap: wrap;
+     flex-direction: column;
+    margin-top: 60px;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 5px;
+    text-align: right;
+    line-height: 60%;
+}
+.player_card_wrapper {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    width: 120px;
+    padding: 0;
+    font-family: 'Righteous';
+}
+.home_meetplayers .home_text_wrapper {
+    float: none;
+    width: 35%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px 0px;
+}
+.featured_player {
+    width: 80%;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+}
 }

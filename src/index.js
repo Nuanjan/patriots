@@ -4,6 +4,7 @@ import Routes from './routes';
 import { BrowserRouter } from 'react-router-dom';
 import './Resources/css/app.css';
 import { firebase } from './firebase'; 
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 const App = (props) => {

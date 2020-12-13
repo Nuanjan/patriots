@@ -6,22 +6,28 @@ class Stripes extends Component {
     state={
         stripes: [
             {background: 'red',
-            left:120,
+            left:70,
             rotate:25,
-            top:-260,
+            top:-10,
             delay:0
             },
             {background: 'white',
-            left:360,
+            left:180,
             rotate:25,
-            top:-397,
+            top:-30,
             delay:200
         },
             {background: 'red',
-            left:600,
+            left:290,
             rotate:25,
-            top:-498,
+            top:-30,
             delay:400
+        },
+        {background: 'white',
+            left:400,
+            rotate:25,
+            top:-30,
+            delay:600
         }
         ]
     }
@@ -58,7 +64,7 @@ class Stripes extends Component {
                     style={{
                         background,
                         opacity,
-                        transform: `rotate(${rotate}deg) translate(${left}px, ${top}px)`
+                        transform: `rotate(${rotate}deg) translate(${left}%, ${top}em)`
                     }}
                     ></div>
                    );

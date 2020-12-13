@@ -21,7 +21,7 @@ class Text extends Component {
                     <div className="featured_number"
                     style={{
                         opacity,
-                        transform:`translate(260px, 170px) rotateY(${rotate}deg)`
+                        transform:`translate(8vw, 40%) rotateY(${rotate}deg)`
                     }}>
                             6
                     </div>
@@ -39,8 +39,8 @@ class Text extends Component {
         }}
         enter={{
             opacity:[1],
-            x: [273],
-            y: [450],
+            x: [8],
+            y: [400],
             timing:{duration: 500, ease: easePolyOut}
         }}
         >
@@ -49,7 +49,7 @@ class Text extends Component {
                     <div className="featured_first"
                     style={{
                         opacity,
-                        transform:`translate(${x}px, ${y}px)`
+                        transform:`translate(${x}vw, ${y}%)`
                     }}>
                             Super Bowl
                     </div>
@@ -68,8 +68,8 @@ class Text extends Component {
         }}
         enter={{
             opacity:[1],
-            x: [273],
-            y: [586],
+            x: [8],
+            y: [520],
             timing:{delay:300,duration: 500, ease: easePolyOut}
         }}
         >
@@ -78,7 +78,7 @@ class Text extends Component {
                     <div className="featured_second"
                     style={{
                         opacity,
-                        transform:`translate(${x}px, ${y}px)`
+                        transform:`translate(${x}vw, ${y}%)`
                     }}>
                             Championships
                     </div>
@@ -103,7 +103,7 @@ class Text extends Component {
                     style={{
                         opacity,
                         background:`url(${FeaturedPlayer})`,
-                        transform:`translate(550px, 110px)`
+                        transform:`translate(20vw, 20%)`
                     }}>
                     </div>
                 )
