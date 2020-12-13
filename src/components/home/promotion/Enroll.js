@@ -110,11 +110,11 @@ class Enroll extends Component {
                     }
                     <div className="success_label">{this.state.formSuccess}</div>
                         
-                        <button onClick={(event) => this.submitForm(event) } >Enroll</button>
+                        <button onClick={(event) => this.submitForm(event) } >Join</button>
                         <div className="enroll_discl">
-                        Balloons are pretty and come in different colors, 
-                        different shapes, different sizes, and they can even adjust sizes as needed. 
-                        But don't make them too big or they might just pop, and then bye-bye
+                        Please Let us know in advance if you cannot
+                        attend the party. Bring your own favorite drink! 
+                        We offer afree snack and foods. SeeYa!
                         </div>
                     </div>
                 </form>

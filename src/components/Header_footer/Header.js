@@ -11,9 +11,9 @@ class Header extends Component {
             <AppBar
             position="fixed"
             style={{
+                width: '100%',
                 backgroundColor:'#98c5e9',
                 boxShadow: 'none',
-                marginLeft: '50px',
                 padding: '10px 0',
                 borderBottom: '2px solid #00285e',
 
@@ -26,7 +26,7 @@ class Header extends Component {
                                 <PatsLogo 
                                 link={true}
                                 linkTo="/"
-                                width="6em"
+                                width="5em"
                                 height="3em"
                                 />
 
