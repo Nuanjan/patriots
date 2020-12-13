@@ -689,6 +689,140 @@ footer .footer_discl {
     text-align: center;
     margin-top: 200px;
 }
+@media(max-width: 1366px) {
+    .featured_wrapper {
+        width: 1366px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+    .feature_player {
+        position: absolute;
+    }
+.container {
+    width: 1366px;
+}
+
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 15px;
+    text-align: right;
+    line-height: 60%;
+}
+.home_meetplayers .home_text_wrapper {
+    width: 35%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px auto;
+}
+.featured_player {
+    width: 60%;
+    background-size: 70% !important;
+    background-repeat: no-repeat !important;
+    margin: 0px 180px 30px;
+    position: absolute;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 100%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 700px;
+    font-size: 24px;
+}
+.link_logo .img_cover{ 
+width: 160px !important;
+height: 80px !important;
+}
+
+.header_button {
+    width: 100% !important;
+    font-size: 24px !important;
+}
+.featured_number {
+    margin-top: -205px !important;
+}
+}
+@media(max-width: 1024px) {
+    .featured_wrapper {
+        width: 1024px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+    .feature_player {
+        position: absolute;
+    }
+.container {
+    width: 1024px;
+}
+.home_matches_wrapper .home_matches {
+    flex-wrap: wrap;
+     flex-direction: column;
+    margin-top: 60px;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 10px;
+    text-align: right;
+    line-height: 60%;
+}
+.home_meetplayers .home_text_wrapper {
+    width: 35%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px auto;
+}
+.featured_player {
+    width: 70%;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+}
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 80%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 500px;
+    margin: 0 auto;
+}
+.link_logo .img_cover{ 
+width: 160px !important;
+height: 80px !important;
+}
+
+.header_button {
+    width: 100% !important;
+    font-size: 24px !important;
+}
+.featured_number {
+    margin-top: -205px !important;
+}
+}
 @media(max-width: 812px) {
     .featured_wrapper {
         width: 812px;
@@ -744,11 +878,11 @@ input {
     border-radius: 3px;
     font-family: Roboto;
     font-weight: 300;
-    width: 50%;
+    width: 80%;
 
 }
 .promotion_wrapper .enroll_discl {
-    width: 200px;
+    width: 500px;
     margin: 0 auto;
 }
 .wrap_head {
@@ -756,13 +890,93 @@ input {
     position: absolute !important;
 }
 .link_logo .img_cover{ 
-width: 30px !important;
-height: 20px !important;
+width: 100px !important;
+height: 50px !important;
 }
 
 .header_button {
-    width: 10% !important;
-    font-size: 10px !important;
+    width: 100% !important;
+    font-size: 18px !important;
+}
+.featured_number {
+    margin-top: 60px !important;
+}
+}
+@media(max-width: 768px) {
+    .featured_wrapper {
+        width: 768px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+    .feature_player {
+        position: absolute;
+    }
+.container {
+    width: 768px;
+}
+.home_matches_wrapper .home_matches {
+    flex-wrap: wrap;
+     flex-direction: column;
+    margin-top: 60px;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 10px;
+    text-align: right;
+    line-height: 60%;
+}
+.player_card_wrapper {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    padding: 10px;
+    width: 250px;
+    padding: 0;
+    font-family: 'Righteous';
+}
+.home_meetplayers .home_text_wrapper {
+    width: 35%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px auto;
+}
+.featured_player {
+    width: 80%;
+    background-size: 150% !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+}
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 80%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 400px;
+    margin: 0 auto;
+}
+.wrap_head {
+    width: 768px !important;
+    position: absolute !important;
+}
+.link_logo .img_cover{ 
+width: 90px !important;
+height: 45px !important;
+}
+
+.header_button {
+    width: 100% !important;
+    font-size: 15px !important;
 }
 }
 @media(max-width: 667px) {
@@ -820,7 +1034,7 @@ input {
     border-radius: 3px;
     font-family: Roboto;
     font-weight: 300;
-    width: 50%;
+    width: 70%;
 
 }
 .promotion_wrapper .enroll_discl {
@@ -947,7 +1161,7 @@ height: 20px !important;
     background: #ffffff;
     border: 1px solid #ececec;
     width: 120px;
-    padding: 0;
+    padding: 5px;
     font-family: 'Righteous';
 }
 .home_meetplayers .home_text_wrapper {
