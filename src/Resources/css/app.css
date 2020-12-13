@@ -140,7 +140,9 @@ button {
     font-family: 'Righteous', cursive;
     color: #d5ebfe;
 }
-
+.wrap_head {
+    width: 100% !important;
+}
 
 /*=============================
             HEADER FOOTER
@@ -169,7 +171,7 @@ footer .footer_discl {
 .featured_wrapper {
     margin: 0 auto;
     width: 1280px;
-    margin-top: 90px;
+    margin-top: 50px;
     height: 800px;
     overflow: hidden;
     position: relative;
@@ -698,7 +700,7 @@ footer .footer_discl {
         position: absolute;
     }
 .container {
-    width: 320px;
+    width: 330px;
 }
 .home_matches_wrapper .home_matches {
     flex-wrap: wrap;
@@ -724,7 +726,7 @@ footer .footer_discl {
 }
 .home_matches_wrapper .home_matches .item {
     width: 100%;
-    margin: 35px 0px;
+    margin: 35px auto;
 }
 .featured_player {
     width: 80%;
@@ -733,8 +735,34 @@ footer .footer_discl {
     position: absolute;
 }
 .container {
-    width: 1024px;
     margin: 0 auto;
     height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 50%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 200px;
+    margin: 0 auto;
+}
+.wrap_head {
+    width: 320px !important;
+    position: absolute !important;
+}
+.link_logo .img_cover{ 
+width: 30px !important;
+height: 20px !important;
+}
+
+.header_button {
+    width: 10% !important;
+    font-size: 10px !important;
 }
 }

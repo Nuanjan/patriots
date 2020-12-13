@@ -6,7 +6,7 @@ const MatchesHome
  = () => {
     return (
         <div className="home_matches_wrapper">
-            <div className="container">
+            <div className="container game">
                 <Tag
                 bck="#0e1731"
                 size="50px"
@@ -24,8 +24,6 @@ const MatchesHome
                 >
                     see more match
                 </Tag>
-
-                TAG
 
             </div>
         </div>

@@ -40,7 +40,7 @@ class Text extends Component {
         enter={{
             opacity:[1],
             x: [8],
-            y: [400],
+            y: [350],
             timing:{duration: 500, ease: easePolyOut}
         }}
         >
@@ -69,7 +69,7 @@ class Text extends Component {
         enter={{
             opacity:[1],
             x: [8],
-            y: [520],
+            y: [480],
             timing:{delay:300,duration: 500, ease: easePolyOut}
         }}
         >
@@ -103,7 +103,7 @@ class Text extends Component {
                     style={{
                         opacity,
                         background:`url(${FeaturedPlayer})`,
-                        transform:`translate(20vw, 20%)`
+                        transform:`translate(20vw, 30%)`
                     }}>
                     </div>
                 )
