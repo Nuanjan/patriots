@@ -26,8 +26,8 @@ class Header extends Component {
                                 <PatsLogo 
                                 link={true}
                                 linkTo="/"
-                                width="5em"
-                                height="3em"
+                                width="10em"
+                                height="4em"
                                 />
 
                         </div>
