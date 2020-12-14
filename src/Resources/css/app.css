@@ -1,8 +1,11 @@
-body {
-    margin:0;
-    padding:0;
-    font-family: 'Roboto', sans-serif;
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     font-size: 100%;
+    overflow-x: hidden; 
+    font-family: 'Roboto', sans-serif;
 }
 .wrap_head{
     width: 100%;
@@ -1191,6 +1194,151 @@ height: 50px !important;
     font-size: 35px;
 }
 }
+@media(max-width: 414px) {
+    .featured_wrapper {
+        width: 414px;
+    }
+    .featured_wrapper {
+        height: 550px;
+    }
+.container {
+    width: 414px;
+}
+.home_matches_wrapper .home_matches {
+    flex-wrap: wrap;
+     flex-direction: column;
+    margin-top: 60px;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 20vw;
+    padding: 5px;
+    text-align: right;
+    line-height: 60%;
+}
+.player_card_wrapper {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    width: 180px;
+    padding: 0;
+    font-family: 'Righteous';
+}
+.home_meetplayers .home_text_wrapper {
+    float: none;
+    width: 40%;
+}
+.home_matches_wrapper .home_matches .item {
+    width: 100%;
+    margin: 35px auto;
+}
+.featured_player {
+    width: 95%;
+    background-size: 150% !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    margin-left: -50px;
+}
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+input {
+    margin: 20px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: 300;
+    width: 50%;
+
+}
+.promotion_wrapper .enroll_discl {
+    width: 200px;
+    margin: 0 auto;
+}
+.wrap_head {
+    width: 320px !important;
+    position: absolute !important;
+}
+.link_logo .img_cover{ 
+width: 60px !important;
+height: 30px !important;
+}
+
+.header_button {
+    width: 10% !important;
+    font-size: 15px !important;
+}
+.player_card_wrapper .player_card_number {
+    font-size: 22px;
+    padding: 5px;
+    text-align: right;
+    line-height: 60%;
+}
+.player_card_wrapper .player_card_name span {
+    font-size: 24px;
+}
+.match_box_big {
+    border-bottom: none;;
+}
+/*====================
+        COUNTDOWN
+======================*/
+
+.countdown_wrapper {
+    position:relative;
+    bottom: 0px;
+    color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+    background: #98c5e9;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+    text-align:center;
+    margin: 20px auto;
+    background: rgb(25, 40, 65);
+    padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+    font-size: 20px;
+    border-right: 1px solid #d9cdc9;
+    margin-right: 14px;
+    padding-right: 10px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+    border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-left: 7px;
+    text-align:center;
+}
+.signin_wrapper {
+    width: 55%;
+    margin-left: 0px !important;
+}
+.signin_wrapper h2 {
+    font-size:30px;
+}
+.signin_wrapper form button {
+    width: 60%;
+}
+.the_team_container {
+    margin-top: 0;
+}
+}
 @media(max-width: 375px) {
     .featured_wrapper {
         width: 375px;
@@ -1332,19 +1480,22 @@ height: 20px !important;
 .signin_wrapper form button {
     width: 60%;
 }
+.the_team_container {
+    margin-top: 0;
+}
 }
 
 @media(max-width: 320px) {
     .featured_wrapper {
         height: 550px;
         width:100%;
-        position: relative;
     }
     .feature_player {
         position: absolute;
     }
 .container {
     width: 330px;
+   
     margin-left: 25px;
 }
 
@@ -1464,5 +1615,8 @@ height: 20px !important;
 }
 .signin_wrapper form button {
     width: 50%;
+}
+.the_team_container {
+    margin-top: 0;
 }
 }
