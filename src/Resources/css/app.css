@@ -33,7 +33,6 @@ a {
 
 .img_cover {
     background-size: contain !important;
-    overflow: hidden;
 }
 .container {
     width:1024px;
