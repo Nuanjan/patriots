@@ -14,7 +14,7 @@ class Header extends Component {
                 width: '100%',
                 backgroundColor:'#98c5e9',
                 boxShadow: 'none',
-                padding: '10px 0',
+                padding: '5px 0',
                 borderBottom: '2px solid #00285e',
 
             }}
@@ -26,8 +26,6 @@ class Header extends Component {
                                 <PatsLogo 
                                 link={true}
                                 linkTo="/"
-                                width="10em"
-                                height="4em"
                                 />
 
                         </div>
@@ -39,7 +37,7 @@ class Header extends Component {
                      <Button color="inherit" className="header_button">Matches</Button>
                     </Link>
                     <Link to ="/sign_in">
-                     <Button color="inherit" className="header_button">admin?</Button>
+                     <Button color="inherit" className="header_button">ROY?</Button>
                     </Link>
 
                 </Toolbar>

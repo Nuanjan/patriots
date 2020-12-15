@@ -32,7 +32,8 @@ a {
 }
 
 .img_cover {
-    background-size: cover !important;
+    background-size: contain !important;
+    overflow: hidden;
 }
 .container {
     width:1024px;
@@ -880,7 +881,7 @@ height: 80px !important;
     font-size: 24px !important;
 }
 .featured_number {
-    margin-top: -205px !important;
+    margin-top: -200px !important;
 }
 .player_card_wrapper .player_card_number {
     font-size: 120px;

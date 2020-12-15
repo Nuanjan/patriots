@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
-import patriots from '../../Resources/images/logos/roy-log.png'
+import patriots from '../../Resources/images/logos/roy-boy-logo.png'
 
 export const PatsLogo = (props) => {
     const template = <div
