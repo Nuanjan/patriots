@@ -61,7 +61,7 @@ this.setState({
                                     <div className={`option`}
                                     onClick={() => this.showPlayed('No')}
                                     >
-                                        Not Play
+                                        Coming
                                     </div>
                                 </div>
                             </div>
