@@ -26,6 +26,7 @@ const AdminNav = () => {
     const style={
         color: '#ffffff',
         fontWeight: '300',
+        marginTop: '0',
         borderBottom: '1px solid #353535'
     }
 // use firebase for sign out lik we do on sin in
