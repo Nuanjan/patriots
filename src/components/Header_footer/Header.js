@@ -39,7 +39,7 @@ class Header extends Component {
                      <Button color="inherit" className="header_button">Matches</Button>
                     </Link>
                     <Link to ="/sign_in">
-                     <Button color="inherit" className="header_button">ROY?</Button>
+                     <Button color="inherit" className="header_button">Are You ROY?</Button>
                     </Link>
 
                 </Toolbar>
