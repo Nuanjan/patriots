@@ -187,7 +187,7 @@ footer .footer_discl {
 }
 
 .featured_stripes {
-  height: 550px;
+  height: 600px;
   width: 100%;
   grid-column: 1/4;
   grid-row: 1/4;
@@ -211,15 +211,15 @@ footer .footer_discl {
   color: #ffffff;
   position: absolute;
   width: 30%;
-  top: 0;
+  top: 5%;
   left: -45%;
 }
 
 .featured_player {
   background-size: contain !important;
   background-repeat: no-repeat !important;
-  min-width: 550px;
-  min-height: 600px;
+  min-width: 600px;
+  min-height: 650px;
   left: -30%;
   top: 20px;
   position: absolute;
@@ -248,22 +248,25 @@ footer .footer_discl {
   bottom: 20%;
 }
 @media (max-width: 442px) {
+  .featured_stripes {
+    height: 400px;
+  }
   .featured_number {
     font-size: 8rem;
-    top: 30%;
+    top: 10%;
     left: -75%;
   }
   .featured_player {
     min-width: 350px;
     min-height: 450px;
     left: -50%;
-    top: 38%;
+    top: 15%;
     position: absolute;
   }
   .featured_first {
     font-size: 2rem;
     left: -80%;
-    bottom: 30%;
+    bottom: 35%;
   }
 
   .featured_second {
@@ -441,7 +444,7 @@ footer .footer_discl {
 }
 
 /*=============================
-            MATCHES BLOCK
+            MEET PLAYER
 ===============================*/
 
 .home_meetplayers {
@@ -449,23 +452,33 @@ footer .footer_discl {
 }
 
 .home_meetplayers_wrapper {
-  padding-bottom: 100px;
-  min-height: 700px;
+  display: flex;
+  width: 100%;
 }
 
-.home_meetplayers .home_card_wrapper {
+.home_card_wrapper {
+  width: 50%;
   position: relative;
-  float: left;
-  min-height: 600px;
+  margin-left: 15%;
 }
 
-.home_meetplayers .home_text_wrapper {
-  float: right;
-  width: 35%;
+.home_text_wrapper {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .home_meetplayers_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_card_wrapper {
+    width: 65%;
+    margin-left: 0;
+    height: 800px;
+  }
 }
 
 /*=============================
-            MATCHES BLOCK
+            PLAYER CARD 
 ===============================*/
 
 .player_card_wrapper {
@@ -506,7 +519,12 @@ footer .footer_discl {
 }
 
 .home_text_wrapper {
-  margin-top: 70px;
+  margin: 70px auto;
+}
+@media (max-width: 375px) {
+  .player_card_wrapper {
+    width: 200px;
+  }
 }
 
 /*=============================
@@ -514,22 +532,22 @@ footer .footer_discl {
 ===============================*/
 
 .promotion_wrapper {
-  padding: 60px 0px 130px 0px;
-  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .promotion_wrapper .promotion_animation {
   display: flex;
-  padding: 80px 0px 30px 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .promotion_wrapper .promotion_animation .left {
   text-transform: uppercase;
   text-transform: uppercase;
   font-size: 10vw;
-  padding: 10px;
   font-family: "Righteous", cursive;
-  flex-grow: 1;
   color: #d5ebfd;
 }
 .promotion_wrapper .promotion_animation .left span {
@@ -541,7 +559,7 @@ footer .footer_discl {
 }
 
 .promotion_wrapper .promotion_animation .right div {
-  width: 50vw;
+  width: 30vw;
   height: 30vw;
   background-size: contain !important;
 }
@@ -566,8 +584,7 @@ footer .footer_discl {
 
 .promotion_wrapper .enroll_input {
   width: 330px;
-  margin: 0 auto;
-  padding: 10px 0px;
+  margin: 10px auto;
 }
 
 /*=============================
@@ -741,12 +758,18 @@ footer .footer_discl {
 ======================*/
 
 .countdown_wrapper {
+  width: 100%;
   position: relative;
   bottom: 0px;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .countdown_wrapper .countdown_top {
+  margin-left: 20px;
   background: #98c5e9;
   font-size: 19px;
   padding: 10px;
@@ -756,7 +779,6 @@ footer .footer_discl {
 
 .countdown_wrapper .countdown_bottom {
   display: flex;
-
   justify-content: center;
   width: 60%;
   margin: 20px auto;
@@ -778,4 +800,17 @@ footer .footer_discl {
   text-transform: uppercase;
   font-size: 20px;
   padding-left: 7px;
+}
+@media (max-width: 800px) {
+  .countdown_wrapper .countdown_bottom {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0;
+  }
+  .countdown_wrapper .countdown_time {
+    font-size: 30px;
+  }
+  .countdown_wrapper .countdown_tag {
+    font-size: 15px;
+  }
 }
